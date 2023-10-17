@@ -15,18 +15,17 @@ public class Segitiga {
         this.sisi = sisi;
     }
 
-    // Method untuk menghitung luas segitiga
+    // luas segitiga
     public double getLuas() {
         return 0.5 * alas * tinggi;
     }
 
-    // Method untuk menghitung keliling segitiga
+    // keliling segitiga
     public double getKeliling() {
         return sisi + sisi + sisi;
     }
 
     public static void main(String[] args) {
-        // Contoh penggunaan class Triangle
         Segitiga segitiga = new Segitiga(30, 10, 30);
 
         double luas = segitiga.getLuas();
